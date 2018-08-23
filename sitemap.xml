@@ -5,27 +5,33 @@
   <url>
     <loc>http://idlevillager.github.io/posts/my-first-post/</loc>
     <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/</loc>
     <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/posts/</loc>
     <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
