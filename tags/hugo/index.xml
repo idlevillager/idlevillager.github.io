@@ -17,7 +17,7 @@
       <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
       
       <guid>http://idlevillager.github.io/posts/free-website-in-15-mins/</guid>
-      <description>A one page instructable Basic Setup: 5 minutes  Create a free github account say demouser. This repository will contain the rendered version of your website. Use the github dashboard to create a public github repository with name demouser.github.io Install hugo on your local machine. On MacOS:  brew install hugo   Create a new site, say named mynotes  hugo new site mynotes   Choose a theme from available themes The recommended theme is good to get started with.</description>
+      <description>A one page instructable Basic Setup: 5 minutes  Create a free github account say demouser. This repository will contain the rendered version of the website. Use the github dashboard to create a public github repository with the name demouser.github.io Install hugo on the local machine. On MacOS:  brew install hugo   Create a new site, say named mynotes  hugo new site mynotes   Choose a theme from available themes The recommended theme is good to get started with.</description>
     </item>
     
     <item>

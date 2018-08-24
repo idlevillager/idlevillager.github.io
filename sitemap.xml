@@ -17,6 +17,12 @@
   </url>
   
   <url>
+    <loc>http://idlevillager.github.io/posts/free-website-in-15-mins/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://idlevillager.github.io/posts/</loc>
     <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
