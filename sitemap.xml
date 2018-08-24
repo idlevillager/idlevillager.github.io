@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://idlevillager.github.io/posts/free-website-in-15-mins/</loc>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://idlevillager.github.io/posts/my-first-post/</loc>
     <lastmod>2018-08-22T17:08:51-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,7 +18,7 @@
   
   <url>
     <loc>http://idlevillager.github.io/posts/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,35 +37,49 @@
   
   <url>
     <loc>http://idlevillager.github.io/tags/getting-started/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/tags/github/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://idlevillager.github.io/tags/google/</loc>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/tags/hugo/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://idlevillager.github.io/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>http://idlevillager.github.io/tags/markdown/</loc>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://idlevillager.github.io/tags/</loc>
-    <lastmod>2018-08-22T17:08:51-07:00</lastmod>
+    <lastmod>2018-08-23T15:05:58-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

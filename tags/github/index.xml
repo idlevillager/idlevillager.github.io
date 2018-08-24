@@ -6,10 +6,19 @@
     <description>Recent content in Github on Idle Villager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Aug 2018 17:08:51 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 15:05:58 -0700</lastBuildDate>
     
 	<atom:link href="http://idlevillager.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get up and running with a free Website in 15 Mins</title>
+      <link>http://idlevillager.github.io/posts/free-website-in-15-mins/</link>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
+      
+      <guid>http://idlevillager.github.io/posts/free-website-in-15-mins/</guid>
+      <description>A one page instructable Basic Setup: 5 minutes  Create a free github account say demouser. This repository will contain the rendered version of your website. Use the github dashboard to create a public github repository with name demouser.github.io Install hugo on your local machine. On MacOS:  brew install hugo   Create a new site, say named mynotes  hugo new site mynotes   Choose a theme from available themes The recommended theme is good to get started with.</description>
+    </item>
     
     <item>
       <title>Sandbox</title>

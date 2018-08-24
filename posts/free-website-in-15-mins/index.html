@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Idle Villager  | Get up and running with a free Website in 15 Mins</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.47.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Get up and running with a free Website in 15 Mins" />
+<meta property="og:description" content="A single page instructable" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://idlevillager.github.io/posts/free-website-in-15-mins/" /><meta property="article:published_time" content="2018-08-23T15:05:58-07:00"/>
+<meta property="article:modified_time" content="2018-08-23T15:05:58-07:00"/>
+<meta itemprop="name" content="Get up and running with a free Website in 15 Mins">
+<meta itemprop="description" content="A single page instructable">
+
+
+<meta itemprop="datePublished" content="2018-08-23T15:05:58-07:00" />
+<meta itemprop="dateModified" content="2018-08-23T15:05:58-07:00" />
+<meta itemprop="wordCount" content="431">
+
+
+
+<meta itemprop="keywords" content="getting-started,hugo,github,google,markdown," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Get up and running with a free Website in 15 Mins"/>
+<meta name="twitter:description" content="A single page instructable"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-grey">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://idlevillager.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Idle Villager
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        ARTICLES
+      </p>
+      <h1 class="f1 athelas mb1">Get up and running with a free Website in 15 Mins</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-08-23T15:05:58-07:00">August 23, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h2 id="a-one-page-instructable">A one page instructable</h2>
+
+<h4 id="basic-setup-5-minutes">Basic Setup: 5 minutes</h4>
+
+<ul>
+<li>Create a free <a href="http://www.github.com" title="github">github</a> account say <kbd><strong>demouser</strong></kbd>. This repository will contain the rendered version of your website.</li>
+<li>Use the github dashboard to create a public github repository with name <kbd><strong>demouser</strong>.github.io</kbd></li>
+<li>Install <a href="http://gohugo.io/" title="hugo">hugo</a> on your local machine. On MacOS:</li>
+</ul>
+
+<pre><code class="language-bash">   brew install hugo
+</code></pre>
+
+<ul>
+<li>Create a new site, say named <kbd>mynotes</kbd></li>
+</ul>
+
+<pre><code class="language-bash">  hugo new site mynotes
+</code></pre>
+
+<ul>
+<li><p>Choose a theme from available <a href="https://themes.gohugo.io/">themes</a>
+The recommended theme is good to get started with. Get a feel of the theme at the <a href="https://gohugo-ananke-theme-demo.netlify.com/"> demo page </a>.</p>
+
+<pre><code class="language-bash">cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre>
+
+<pre><code class="language-toml">title = &quot;My Notes&quot;
+baseURL = &quot;http://demouser.github.io/&quot;
+theme = &quot;ananke&quot;
+</code></pre></li>
+
+<li><p>Add content to play around with features and look.</p></li>
+</ul>
+
+<pre><code class="language-bash">  hugo new posts/sandbox.md
+</code></pre>
+
+<ul>
+<li>Start local server to preview. <kbd>-D</kbd> allows serving of draft content.</li>
+</ul>
+
+<pre><code class="language-bash">  hugo server -D
+</code></pre>
+
+<p>Open your browser to <kbd><a href="http://localhost:1313/">http://localhost:1313/</a></kbd> to preview the site.</p>
+
+<ul>
+<li>For basic customization of background image, font etc. Modify configuration in <kbd>mynotes/config.toml</kbd>. See <kbd>notes/themes/ananke/README.md</kbd> and refer to <kbd>notes/themes/ananke/exampleSite</kbd>.</li>
+
+<li><p>When mildly satisfied with the site prepare to host it publicly.
+Remove draft status from file. <kbd>draft: false</kbd> in <kbd>config.toml</kbd> or use the command</p>
+
+<pre><code class="language-bash">hugo undraft
+</code></pre>
+
+<p><kbd>Ctrl-C</kbd> to kill the hugo server. Then remove the generated files in preparation of setting up the remote repository from a clean slate.</p>
+
+<pre><code class="language-bash">rm -rf public
+</code></pre>
+
+<p>Setting the repository as a submodule, allows content to be stored separately from generated files used to render the website.</p>
+
+<pre><code class="language-bash">git submodule add -b master git@github.com:demouser/demouser.github.io.git public
+hugo
+cd public
+git commit -m &quot;checking liveness&quot;
+git push origin master
+</code></pre>
+
+<h4 id="optional-setup-5-minutes">Optional Setup: 5 minutes</h4></li>
+
+<li><p>Further customization. Create _index.md files ( see notes/themes/ananke/exampleSite ) to further tweak appearance.</p></li>
+
+<li><p>Add google analytics. Add your website <kbd><a href="http://demouser.github.io">http://demouser.github.io</a></kbd> as a new property in <kbd><a href="http://analytics.google.com/">http://analytics.google.com/</a></kbd> You will get a tag like UA-1234567-1. Add it to <kbd>config.toml</kbd> add your</p></li>
+</ul>
+
+<pre><code class="language-bash">  googleAnalytics = &quot;UA-12345678-1
+</code></pre>
+
+<ul>
+<li>Enable comments on your posts. Create an account at <a href="http://disqus.com" title="disqus">disqus</a>
+Add the following to <kbd>config.toml</kbd></li>
+</ul>
+
+<pre><code class="language-bash">  disqusShortname = &quot;http-demouser-github-io&quot;
+</code></pre>
+
+<ul>
+<li>Contact form to relay email. Create <kbd>mynotes/content/posts/contact.md</kbd></li>
+</ul>
+
+<blockquote>
+<p>{{&lt; form-contact action=&ldquo;<a href="https://formspree.io/yourusername@domain.com&quot;">https://formspree.io/yourusername@domain.com&quot;</a>  &gt;}}</p>
+</blockquote>
+
+<ul>
+<li>Store content in different git repository. Create a repository named <kbd>mynotes</kbd> somewhere. It need not be in github.</li>
+</ul>
+
+<pre><code class="language-bash">  cd mynotes
+  git rm public --cached
+  git add .
+  git commit -m &quot;getting started with website content&quot;
+  git remote add origin git@bitbucket.org:usernameonbitbucket/mynotes.git
+  git push -u origin master
+</code></pre>
+
+<h4 id="write-documentation-5-minutes">Write Documentation: 5 minutes</h4>
+
+<ul>
+<li>Install <kbd>markdown-mode</kbd> for emacs from melpa. <kbd>C-c c-h</kbd> to see all keybindings.</li>
+<li>Document all your steps for future reference.</li>
+</ul>
+
+<h4 id="adding-new-content">Adding new content</h4>
+
+<ul>
+<li>Generate the new files ( do not edit/delete the <kbd>public</kbd> directory and files it contains directly )</li>
+</ul>
+
+<pre><code class="language-bash">  hugo
+</code></pre>
+
+<ul>
+<li>Preview locally <kbd><a href="http://localhost:1313/">http://localhost:1313/</a></kbd> to preview the site.
+*</li>
+</ul>
+
+<pre><code class="language-bash">  git commit -m &quot;newer content&quot;
+  git push -u origin master
+</code></pre>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/getting-started" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">getting-started</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/github" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">github</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/google" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">google</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/markdown" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">markdown</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "http-idlevillager-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/my-first-post/">Sandbox</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://idlevillager.github.io/" >
+    &copy; 2018 Idle Villager
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

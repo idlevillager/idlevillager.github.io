@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Idle Villager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Aug 2018 17:08:51 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 15:05:58 -0700</lastBuildDate>
     
 	<atom:link href="http://idlevillager.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Getting Started</title>
       <link>http://idlevillager.github.io/tags/getting-started/</link>
-      <pubDate>Wed, 22 Aug 2018 17:08:51 -0700</pubDate>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
       
       <guid>http://idlevillager.github.io/tags/getting-started/</guid>
       <description></description>
@@ -23,18 +23,36 @@
     <item>
       <title>Github</title>
       <link>http://idlevillager.github.io/tags/github/</link>
-      <pubDate>Wed, 22 Aug 2018 17:08:51 -0700</pubDate>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
       
       <guid>http://idlevillager.github.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Google</title>
+      <link>http://idlevillager.github.io/tags/google/</link>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
+      
+      <guid>http://idlevillager.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>http://idlevillager.github.io/tags/hugo/</link>
-      <pubDate>Wed, 22 Aug 2018 17:08:51 -0700</pubDate>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
       
       <guid>http://idlevillager.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://idlevillager.github.io/tags/markdown/</link>
+      <pubDate>Thu, 23 Aug 2018 15:05:58 -0700</pubDate>
+      
+      <guid>http://idlevillager.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     

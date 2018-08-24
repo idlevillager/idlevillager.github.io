@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Idle Villager</title>
-    <link>http://idlevillager.github.io/</link>
-    <description>Recent content on Idle Villager</description>
+    <title>Markdown on Idle Villager</title>
+    <link>http://idlevillager.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on Idle Villager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Aug 2018 15:05:58 -0700</lastBuildDate>
     
-	<atom:link href="http://idlevillager.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://idlevillager.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,24 +18,6 @@
       
       <guid>http://idlevillager.github.io/posts/free-website-in-15-mins/</guid>
       <description>A one page instructable Basic Setup: 5 minutes  Create a free github account say demouser. This repository will contain the rendered version of your website. Use the github dashboard to create a public github repository with name demouser.github.io Install hugo on your local machine. On MacOS:  brew install hugo   Create a new site, say named mynotes  hugo new site mynotes   Choose a theme from available themes The recommended theme is good to get started with.</description>
-    </item>
-    
-    <item>
-      <title>Sandbox</title>
-      <link>http://idlevillager.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 22 Aug 2018 17:08:51 -0700</pubDate>
-      
-      <guid>http://idlevillager.github.io/posts/my-first-post/</guid>
-      <description>if hello = True: print &amp;#34;World&amp;#34; </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://idlevillager.github.io/posts/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://idlevillager.github.io/posts/contact/</guid>
-      <description> Your Name Email Address An email address is required.  Message   </description>
     </item>
     
   </channel>
